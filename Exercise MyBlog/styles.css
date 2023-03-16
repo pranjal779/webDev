@@ -1,0 +1,67 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    margin-right: 10px;
+}
+
+body, section, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.I.code.sometimes {
+    text-align: center;
+}
+
+.Game.Dev {
+    text-align: center;
+}
+
+.Fun.YT {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+    border-color: blueviolet;
+    height: 1px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    16.7% {
+        color: rgb(255, 255, 0);
+    }
+    33.3% {
+        color: rgb(0, 255, 0);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.7% {
+        color: rgb(0, 0, 255);
+    }
+    83.3% {
+        color: rgb(255, 0, 255);
+    }
+    100% {
+        color: rgb(255, 0, 0);
+    }
+}
+
+body {
+    background-color: #f0f0f0;
+  }
